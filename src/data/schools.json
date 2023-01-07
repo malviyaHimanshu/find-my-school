@@ -1,0 +1,202 @@
+[{
+  "_id": {
+    "$oid": "63b9c635ca252f970d464d03"
+  },
+  "school_name": "Delhi public school",
+  "website": null,
+  "address": "whitefield",
+  "city": "bangalore",
+  "pin_code": "560075",
+  "ph_no": "8296665552",
+  "is_main_branch": "no",
+  "email": "dpseast@gmail.om",
+  "school_number": "21436547894",
+  "fees": "149000",
+  "courses": [
+    "java",
+    "ai",
+    "history"
+  ],
+  "score": 0.1994892857142858
+},{
+  "_id": {
+    "$oid": "63b9c680ca252f970d464d05"
+  },
+  "school_name": "Delhi public school",
+  "website": null,
+  "address": "kengeri",
+  "city": "bangalore",
+  "pin_code": "560050",
+  "ph_no": "8296665552",
+  "is_main_branch": "no",
+  "email": "dpssouth@gmail.om",
+  "school_number": "21436547895",
+  "fees": "149000",
+  "courses": [
+    "chemistry",
+    "java",
+    "ai",
+    "history"
+  ],
+  "score": 0.1994892857142858
+},{
+  "_id": {
+    "$oid": "63b9c71aca252f970d464d07"
+  },
+  "school_name": "St Thomas High School",
+  "website": null,
+  "address": "Nugambakkam",
+  "city": "chennai",
+  "pin_code": "660050",
+  "ph_no": "8296665551",
+  "is_main_branch": "no",
+  "email": "stthomas@gmail.om",
+  "school_number": "21436547896",
+  "fees": "109000",
+  "courses": [
+    "chemistry",
+    "java",
+    "ai",
+    "swimming"
+  ],
+  "score": 0.09503030303030305
+},{
+  "_id": {
+    "$oid": "63b9c763ca252f970d464d09"
+  },
+  "school_name": "St Charles High School",
+  "website": null,
+  "address": "steel town",
+  "city": "Bhadravati",
+  "pin_code": "570050",
+  "ph_no": "8296665440",
+  "is_main_branch": "no",
+  "email": "stcharles@gmail.om",
+  "school_number": "21436547897",
+  "fees": "29000",
+  "courses": [
+    "NCC ",
+    " swimming"
+  ],
+  "score": 0.06549052631578947
+},{
+  "_id": {
+    "$oid": "63b9c7b7ca252f970d464d0b"
+  },
+  "school_name": "SDM High School",
+  "website": null,
+  "address": "vidyagiri",
+  "city": "Dharwad",
+  "pin_code": "577050",
+  "ph_no": "8296667410",
+  "is_main_branch": "yes",
+  "email": "sdmhigh@gmail.om",
+  "school_number": "21436547898",
+  "fees": "49000",
+  "courses": [
+    "NCC ",
+    " swimming ",
+    " python coding"
+  ],
+  "score": 0
+},{
+  "_id": {
+    "$oid": "63b9c812ca252f970d464d0d"
+  },
+  "school_name": "Jawahar Navodaya High School",
+  "website": null,
+  "address": "kusalganj",
+  "city": "Panipat",
+  "pin_code": "177050",
+  "ph_no": "8856667410",
+  "is_main_branch": "no",
+  "email": "jnv@gmail.om",
+  "school_number": "21436547899",
+  "fees": "19000",
+  "courses": [
+    "NCC ",
+    " swimming ",
+    " gymnastics"
+  ],
+  "score": 0
+},{
+  "_id": {
+    "$oid": "63b9c883ca252f970d464d11"
+  },
+  "school_name": "Gayatri Vidyalay High School",
+  "website": null,
+  "address": "rana sanga colony",
+  "city": "Sanchore",
+  "pin_code": "277050",
+  "ph_no": "8856667411",
+  "is_main_branch": "yes",
+  "email": "gayatrivhs@gmail.om",
+  "school_number": "21436547100",
+  "fees": "15000",
+  "courses": [
+    "NCC ",
+    " shooting"
+  ],
+  "score": 0
+},{
+  "_id": {
+    "$oid": "63b9c8ddca252f970d464d13"
+  },
+  "school_name": "Base High School",
+  "website": null,
+  "address": "malviya nagar",
+  "city": "Jaipur",
+  "pin_code": "207050",
+  "ph_no": "8856657411",
+  "is_main_branch": "yes",
+  "email": "basehsjaipur@gmail.om",
+  "school_number": "21436547101",
+  "fees": "99000",
+  "courses": [
+    "physics ",
+    " biology ",
+    " chemistry"
+  ],
+  "score": 0.20415400000000009
+},{
+  "_id": {
+    "$oid": "63b9c937ca252f970d464d15"
+  },
+  "school_name": "Kali High School",
+  "website": null,
+  "address": "Ambikanagar",
+  "city": "Dandeli",
+  "pin_code": "581325",
+  "ph_no": "6656657411",
+  "is_main_branch": "yes",
+  "email": "khephmhs@gmail.om",
+  "school_number": "21436547102",
+  "fees": "1900",
+  "courses": [
+    "Volleyball ",
+    " Kabaddi"
+  ],
+  "score": 0.277347619047619
+},{
+  "_id": {
+    "$oid": "63b9c99dca252f970d464d17"
+  },
+  "school_name": "Greenwood High School",
+  "website": null,
+  "address": "Dollars colony",
+  "city": "Bangalore",
+  "pin_code": "560325",
+  "ph_no": "6656655411",
+  "is_main_branch": "yes",
+  "email": "greenwoodhigh@gmail.om",
+  "school_number": "21436547103",
+  "fees": "190000",
+  "courses": [
+    "Billiards ",
+    " swimming ",
+    " shooting ",
+    " Science ",
+    " History"
+  ],
+  "score": 0.0866287234042553
+}]
