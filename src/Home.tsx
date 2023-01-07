@@ -1,4 +1,19 @@
 const Home = () => {
+    const recommendations = [
+        "Amity University", 
+        "Lovely University",
+        "University of Delhi",
+        "IISc",
+        "Punjab University",
+        "Computer Science",
+        "Delhi Technological University",
+        "B. Tech",
+        "M. Tech",
+        "IIITDM",
+        "MIT School of Management",
+        "NALSAR University of Law",
+    ]
+
     return (
         <>
             <section className="bg-white dark:bg-gray-900">
@@ -30,25 +45,16 @@ const Home = () => {
                             <label className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
                             <div className="relative">
                                 <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-                                    <svg aria-hidden="true" className="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                                    <svg aria-hidden="true" className="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
                                 </div>
                                 <input type="search" id="search" className="block outline-none w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-xl bg-gray-50 focus:ring-gray-500 focus:border-gray-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-gray-500 dark:focus:border-gray-500" placeholder="Search" required />
                                 <button type="submit" className="text-white absolute right-2.5 bottom-2.5 bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-800">Search</button>
                             </div>
                         </form>
                         <div className="recommendations mt-5">
-                            <a className="inline-flex items-center justify-center w-full px-4 py-2 mb-2 mr-2 text-sm font-medium text-gray-700 bg-gray-100 border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-200 hover:text-gray-800 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-700 dark:hover:text-gray-400 dark:hover:bg-gray-700">Amity University</a>
-                            <a className="inline-flex items-center justify-center w-full px-4 py-2 mb-2 mr-2 text-sm font-medium text-gray-700 bg-gray-100 border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-200 hover:text-gray-800 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-700 dark:hover:text-gray-400 dark:hover:bg-gray-700">Lovely University</a>
-                            <a className="inline-flex items-center justify-center w-full px-4 py-2 mb-2 mr-2 text-sm font-medium text-gray-700 bg-gray-100 border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-200 hover:text-gray-800 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-700 dark:hover:text-gray-400 dark:hover:bg-gray-700">University of Delhi</a>
-                            <a className="inline-flex items-center justify-center w-full px-4 py-2 mb-2 mr-2 text-sm font-medium text-gray-700 bg-gray-100 border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-200 hover:text-gray-800 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-700 dark:hover:text-gray-400 dark:hover:bg-gray-700">IISc</a>
-                            <a className="inline-flex items-center justify-center w-full px-4 py-2 mb-2 mr-2 text-sm font-medium text-gray-700 bg-gray-100 border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-200 hover:text-gray-800 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-700 dark:hover:text-gray-400 dark:hover:bg-gray-700">Punjab University</a>
-                            <a className="inline-flex items-center justify-center w-full px-4 py-2 mb-2 mr-2 text-sm font-medium text-gray-700 bg-gray-100 border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-200 hover:text-gray-800 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-700 dark:hover:text-gray-400 dark:hover:bg-gray-700">Computer Science</a>
-                            <a className="inline-flex items-center justify-center w-full px-4 py-2 mb-2 mr-2 text-sm font-medium text-gray-700 bg-gray-100 border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-200 hover:text-gray-800 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-700 dark:hover:text-gray-400 dark:hover:bg-gray-700">Delhi Technological University</a>
-                            <a className="inline-flex items-center justify-center w-full px-4 py-2 mb-2 mr-2 text-sm font-medium text-gray-700 bg-gray-100 border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-200 hover:text-gray-800 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-700 dark:hover:text-gray-400 dark:hover:bg-gray-700">B. Tech</a>
-                            <a className="inline-flex items-center justify-center w-full px-4 py-2 mb-2 mr-2 text-sm font-medium text-gray-700 bg-gray-100 border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-200 hover:text-gray-800 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-700 dark:hover:text-gray-400 dark:hover:bg-gray-700">M. Tech</a>
-                            <a className="inline-flex items-center justify-center w-full px-4 py-2 mb-2 mr-2 text-sm font-medium text-gray-700 bg-gray-100 border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-200 hover:text-gray-800 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-700 dark:hover:text-gray-400 dark:hover:bg-gray-700">IIITDM</a>
-                            <a className="inline-flex items-center justify-center w-full px-4 py-2 mb-2 mr-2 text-sm font-medium text-gray-700 bg-gray-100 border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-200 hover:text-gray-800 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-700 dark:hover:text-gray-400 dark:hover:bg-gray-700">MIT School of Management</a>
-                            <a className="inline-flex items-center justify-center w-full px-4 py-2 mb-2 mr-2 text-sm font-medium text-gray-700 bg-gray-100 border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-200 hover:text-gray-800 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-700 dark:hover:text-gray-400 dark:hover:bg-gray-700">NALSAR University of Law</a>
+                            {recommendations.map(item => (
+                                <a className="inline-flex items-center justify-center w-full px-4 py-2 mb-2 mr-2 text-sm font-medium text-gray-700 bg-gray-100 border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-200 hover:text-gray-800 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-700 dark:hover:text-gray-400 dark:hover:bg-gray-700">{item}</a>
+                            ))}
                         </div>
                     </div>
                 </div>
