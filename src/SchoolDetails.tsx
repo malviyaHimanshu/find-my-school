@@ -17,7 +17,7 @@ const SchoolDetails = () => {
                             <p className="mb-2 font-light lg:text-xl lowercase">{data.ph_no}, {data.email}</p>
                             <p className="my-2 font-light lg:text-xl capitalize">{ data.address }, {data.city}, {data.pin_code}</p>
                             <div className="flex items-baseline my-2">
-                                <span className="mr-2 text-2xl font-extrabold text-gray-300">₹{ parseInt(data.fees).toLocaleString() }</span>
+                                <span className="mr-2 text-2xl font-extrabold dark:text-gray-300">₹{ parseInt(data.fees).toLocaleString() }</span>
                                 <span className="text-gray-500 dark:text-gray-400">/sem</span>
                             </div>
                             <ul role="list" className="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700">
